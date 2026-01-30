@@ -1,0 +1,70 @@
+
+Plano de Implementação - Site da Famita Tambores
+Transformaremos o template existente "Cleanixer" em um site corporativo para a "Famita Tambores".
+
+Revisão do Usuário Necessária
+IMPORTANTE
+
+Conteúdo Necessário: Preciso das seguintes informações para preencher o site corretamente:
+
+Nome da Empresa: É "Famita Tambores e Embalagens"?
+
+Endereço e Telefone: Para a seção de contato/cabeçalho.
+
+Serviços: Lista de serviços específicos (ex.: Venda de Tambores, Reciclagem, Logística).
+
+Logotipo: Qual arquivo em imagens/ é o logotipo? Ou devo gerar um logotipo de texto provisório?
+
+Alterações Propostas
+Recursos e Imagens
+[NOVO] Mover as imagens de imagens/ para assets/images/famita/ para melhor organização.
+
+[MODIFICAR] Substituir as imagens do banner do template por imagens de contêineres da pasta imagens.
+
+[MODIFICAR] Atualizar
+assets/images/logo/logo.png
+(se um logotipo for fornecido) ou substituir por texto em HTML.
+
+Estrutura HTML (páginas para manter e modificar)
+Todas as páginas serão traduzidas para o português e o conteúdo adaptado para o tema recorrente (Tambores/Barris).
+
+[MODIFICAR]
+index.html
+Título: Alteração para "Famita Tambores - Soluções em Embalagens".
+Navegação: Home, Sobre, Serviços, Produtos, Contato.
+Hero Slider: Use "Containers Vários.JPG" ou similar. Texto: "Soluções em Tambores e Embalagens".
+Sobre a Seção: "Sobre a Famita".
+Seção de Serviços: "Nossos Serviços" (Venda, Compra, Reforma).
+Portfólio/Projetos: Mostre imagens de bateria amplamente disponíveis.
+Depoimentos: Remover ou manter como espaço reservado? (Manterá como espaço reservado).
+[MODIFICAR]
+sobre.html
+Traduza "Sobre Nós" para "Sobre Nós".
+Insira o histórico da empresa (espaço reservado se não for conhecido).
+[MODIFICAR]
+service.html
+Listar serviços específicos relacionados a baterias (Reforma, Lavagem, Logística).
+
+[MODIFICAR]
+contact.html
+Atualizar os rótulos do formulário para português.
+
+Atualizar mapa/endereço, se disponível.
+
+Limpeza
+[EXCLUIR] shop.html, cart.html, checkout.html (a menos que seja desejado e-commerce; geralmente, sites institucionais não precisam desses arquivos ainda).
+
+[EXCLUIR] blog.html (a menos que solicitado).
+
+Plano de Verificação
+Verificação Manual
+Abrir
+index.html
+
+no navegador: Verificar se o slider funciona com imagens simples.
+
+Verificação de Navegação: Clicar em todos os links (Sobre, Serviços, Contato) para garantir que funcionem.
+
+Responsividade: Verificar a visualização em dispositivos móveis (através das ferramentas de desenvolvedor do navegador) para garantir que as imagens não estejam quebradas.
+
+Verificação Visual: Verificar se as referências a "Limpeza" foram removidas.
