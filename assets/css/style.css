@@ -935,15 +935,25 @@ img {
 	padding: 8px 36px;
 	padding-right: 10px;
 }
+.about-left-side .about-thumb-big img,
+.about-left-side .about-thumb-mid img,
+.about-left-side .about-thumb-sml img,
+.about-left-side .about-thumb-sml-xs img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
 .about-left-side .about-thumb-mid {
 	position: absolute;
 	top: -90px;
 	left: -220px;
+	width: 250px;
 }
 .about-left-side .about-thumb-sml {
 	position: absolute;
 	right: 20px;
 	bottom: -45px;
+	width: 200px;
 }
 .about-left-side {
 	position: relative;
@@ -952,6 +962,7 @@ img {
 	position: absolute;
 	left: -115px;
 	bottom: -50px;
+	width: 150px;
 }
 .section-heading-top {
 	display: -webkit-box;
