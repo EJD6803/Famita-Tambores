@@ -943,26 +943,24 @@ img {
 	height: auto;
 	border-radius: 10px;
 }
-.about-left-side .about-thumb-mid {
-	position: absolute;
-	top: -90px;
-	left: -220px;
-	width: 250px;
+.about-left-side .about-thumb-big {
+	width: 65%;
+	margin: 0 auto;
 }
 .about-left-side .about-thumb-sml {
 	position: absolute;
-	right: -20px;
-	bottom: -60px;
-	width: 280px;
+	right: -5%;
+	bottom: -5%;
+	width: 45%;
 }
 .about-left-side {
 	position: relative;
 }
 .about-left-side .about-thumb-sml-xs {
 	position: absolute;
-	left: -140px;
-	bottom: -60px;
-	width: 260px;
+	left: -5%;
+	bottom: -5%;
+	width: 45%;
 }
 .section-heading-top {
 	display: -webkit-box;
