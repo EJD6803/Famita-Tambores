@@ -38,8 +38,6 @@
 		loop: true,
 		margin: 0,
 		smartSpeed: 800,
-		animateIn: 'fadeIn',
-		animateOut: 'fadeOut',
 		loop: true,
 		slideSpeed: 3000,
 		nav: true,
