@@ -2657,9 +2657,9 @@ img {
 	background: #02C0F0;
 }
 .footer-top-box-area {
-	-webkit-transform: translateY(80px);
-	    -ms-transform: translateY(80px);
-	        transform: translateY(80px);
+	position: relative;
+	z-index: 2;
+	padding-bottom: 20px;
 }
 .site-footer-2 .footer-widget .title::after {
 	background: #00baee;
