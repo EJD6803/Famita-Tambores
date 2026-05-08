@@ -5198,7 +5198,7 @@ blockquote {
 /* Floating Widgets */
 .floating-widgets {
     position: fixed;
-    bottom: 30px;
+    bottom: 80px;
     right: 30px;
     display: flex;
     flex-direction: column;
